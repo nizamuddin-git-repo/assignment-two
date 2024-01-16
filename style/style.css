@@ -19,6 +19,10 @@ body{
     color: #FF5400;
 }
 
+.text-light-gray{
+
+}
+
 
 /* navbar style here*/
 
@@ -64,17 +68,42 @@ body{
     color: #424247;        
 }
 
-.banner-section{
-    width: 990px;
-    height: 500px;
-    margin: 20px auto;
-}
+/* banner style here*/
 
-.banner-section img {
+.banner-section{
+    border-radius: 15px;
+    background-image: url(../images/travel.png);
+    background-position: center; 
+    max-width: 990px;
     width: 100%;
     height: 500px;
-    border-radius: 16px rgba(255, 0, 0, 0.05);
+    margin: 20px auto;  
 }
+
+.banner-itmes{
+    padding: 102px;
+}
+
+.banner-section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-section p {
+    text-align: center;
+    color: #FFF;
+    padding: 24px;
+}
+
+.banner-btn{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
