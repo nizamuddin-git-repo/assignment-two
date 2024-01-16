@@ -82,6 +82,8 @@ body{
 
 .banner-itmes{
     padding: 102px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 }
 
 .banner-section h1 {
@@ -100,19 +102,31 @@ body{
 }
 
 .banner-btn{
+    background: rgba(255, 255, 255, 0.30);
     display: flex;
     justify-content: center;
     gap: 24px;
-    
+}
+
+.banner-btn a {
+    text-decoration: none;
+    color: rgba(19, 19, 24, 0.50);
 }
 
 .btn-primary{
+    border: 0px;
     border-radius: 8px;
-    background: #FFF;
     padding: 16px;
+    padding-right: 84px;
 }
 
-
+.btn-primar-2{
+    background-color: #FF5400;
+    border: 0px;
+    border-radius: 8px;
+    padding: 16px;
+    padding-right: 84px;
+}
 
 /*responsive media queries*/
 /* mobiel devices*/
