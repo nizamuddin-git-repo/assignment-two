@@ -102,9 +102,15 @@ body{
 .banner-btn{
     display: flex;
     justify-content: center;
+    gap: 24px;
+    
 }
 
-
+.btn-primary{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+}
 
 
 
