@@ -222,11 +222,13 @@ body{
     margin: 0 auto;
     margin-top: 48px;
     width: 990px;
-    height: 900px;
+    height: 850px;
+    border: 2px solid slateblue;
+    gap: 5px;
+}
+.img-box{
     border: 2px solid slateblue;
 }
-
-
 
 
 
