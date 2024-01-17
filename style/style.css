@@ -156,7 +156,7 @@ body{
     margin-right: 10px;
 }
 
-.popular{
+.container-popular{
     display: flex;
     margin: 0 auto;
     max-width: 990px;
@@ -200,10 +200,31 @@ body{
     object-fit: cover;
 }
 
+.container h1{
+    text-align: center;
+    margin-top:100px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
 
+.container p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
 
+}
 
-
+.container-box{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 990px;
+    height: 900px;
+    border: 2px solid slateblue;
+}
 
 
 
