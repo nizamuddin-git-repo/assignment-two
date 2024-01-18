@@ -109,7 +109,6 @@ body{
 }
 
 .banner-btn{
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -223,7 +222,6 @@ body{
     margin-top: 48px;
     max-width: 990px;
     height: 800px;
-    border: 2px solid slateblue;
     gap: 2px;
 }
 
@@ -232,9 +230,11 @@ body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .img-container img{
+    object-fit: cover;
     width: 100%;
 }
 
@@ -264,8 +264,27 @@ body{
 }
 
 .grid-item-7{
-    grid-column: 6/ span 7;
-  
+    grid-column: 6/ span 7;  
+}
+
+.text-description{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.text-description h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.text-description p{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
 }
 
 
