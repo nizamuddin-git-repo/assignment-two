@@ -287,6 +287,57 @@ body{
     color: rgba(19, 19, 24, 0.70);
 }
 
+.section-container{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 990px;
+    height: 284px;
+    border: 2px solid salmon;
+    display: flex;
+}
+
+.text-items-1{
+    width: 100%;
+    max-width: 495px;
+    height: 284px;
+    border: 2px solid rebeccapurple;
+}
+
+.text-items-2{
+    width: 100%;
+    max-width: 495px;
+    height: 284px;
+    border: 2px solid red;
+}
+
+.taxt-description-2{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 990px;
+    height: 300px;
+    border: 2px solid salmon;
+    display: flex;
+    align-items: center;
+}
+
+.taxt-items-3{
+    border: 2px solid salmon;
+    max-width: 300px;
+    height: 284px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*responsive media queries*/
 /* mobiel devices*/
